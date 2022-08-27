@@ -3,9 +3,7 @@ Generate Random Faces that do not exist. I trained a Deep Convolution GAN (DCGAN
 
 
 
-Training Progress           | Web App view            
-:-------------------------:|:-------------------------:
-![](screenshots/progress_animation.gif)  |  ![](screenshots/app_view3.png) 
+
 
 
 ## Getting Started
