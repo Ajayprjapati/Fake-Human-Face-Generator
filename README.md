@@ -1,7 +1,7 @@
 # FaceGAN-Generating-Random-Faces
 Generate Random Faces that do not exist. I trained a Deep Convolution GAN (DCGAN) on 100k celebrities photos.
 
-[Fork the notebook in Colab](https://colab.research.google.com/drive/1uj5U_2Fgr5579oT_2wZCrmsfNGAk8yd_)
+
 
 Training Progress           | Web App view            
 :-------------------------:|:-------------------------:
@@ -29,7 +29,7 @@ Run the train_gan.py file. Using the following flags:
 
 ### Running the app
 Use the following command in the app directory to run the app.
-> ``` python3 app.py ```
+> ``` python3 main.py ```
 
 ## DCGAN - Deep Convolutional Generative Adversarial Network
 DCGAN is one of the popular and successful network design for GAN. It mainly composes convolution layers without max pooling or fully connected layers. 
@@ -39,12 +39,6 @@ They are made of two distinct models, a generator and a discriminator. The job o
 ## My Architecuture:
 ![FaceGAN Architecture](screenshots/facegan_arch.png)
 
-## Authors
-* Aditya Jain : [Portfolio](https://adityajain.me)
 
-## Licence
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/adityajn105/FaceGAN-Generating-Random-Faces/blob/master/LICENSE) file for details
 
-## Must Read
-1. [Keep Calm and train a GAN. Pitfalls and Tips on training Generative Adversarial Networks](https://medium.com/@utk.is.here/keep-calm-and-train-a-gan-pitfalls-and-tips-on-training-generative-adversarial-networks-edd529764aa9)
-2. [How to set descrimator untrainable in GAN](https://stackoverflow.com/questions/51108076/generative-adversarial-networks-in-keras-doesnt-work-like-expected)
+
