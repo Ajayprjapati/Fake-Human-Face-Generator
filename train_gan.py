@@ -93,15 +93,15 @@ def save_figure(epoch,rows,columns,INP_DIM=100):
     
     generated_images = generated_images/2 + 0.5
     
-    figure, axis = plt.subplots(rows, columns)
-    image_count = 0
-    for row in range(rows):
-        for column in range(columns):
-            axis[row,column].imshow(generated_images[image_count, :], cmap='spring')
-            axis[row,column].axis('off')
-            image_count += 1
-    figure.savefig("generated_images/generated_%d.png" % epoch)
-    plt.close()
+#     figure, axis = plt.subplots(rows, columns)
+#     image_count = 0
+#     for row in range(rows):
+#         for column in range(columns):
+#             axis[row,column].imshow(generated_images[image_count, :], cmap='spring')
+#             axis[row,column].axis('off')
+#             image_count += 1
+#     figure.savefig("generated_images/generated_%d.png" % epoch)
+#     plt.close()
 
 def getFakeMiniBatch(batch_size=32, INP_DIM=100):
   while True:
@@ -115,7 +115,7 @@ if __name__ == '__main__':
   parser.add_argument("-p", "--photos_dir", default="allPhotos",help="Faces directory")
   parser.add_argument("-b", "--batch_size", type=int, default=32, help="Size of each batch")
   parser.add_argument("-i", "--inp_dim", type=int, default=100, help="Size of Input Noise")
-  parser.add_argument("-e", "--epochs", type=int, default=10000, help="Number of Epochs to train")
+  parser.add_argument("-e", "--epochs", type=int, default=1000, help="Number of Epochs to train")
 
   args = parser.parse_args()
 
