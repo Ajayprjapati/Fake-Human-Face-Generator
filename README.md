@@ -17,13 +17,7 @@ You will need Python 3.X.X with some packages which you can install directly usi
 I have used the 100k celebrities dataset. You can download that dataset from this location [Link](https://www.kaggle.com/greg115/celebrities-100k).
 
 ### Train the model (Get new weights for generator or train further)
-Run the train_gan.py file. Using the following flags:
-* -w, --weights - saved weights directory
-* -p, --photo_dir - directory containing face images
-* -b, --batch_size - batch size
-* -e, --epochs - number of epochs to run
-* -i, --inp_dim - dimension of noise for generator
-> python3 train_gan.py --weights ./saved_weights -p ./photos -b 32 -e 10000 -i 100 
+Run the train_gan.py file. 
 
 ### Running the app
 Use the following command in the app directory to run the app.
