@@ -28,8 +28,7 @@ DCGAN is one of the popular and successful network design for GAN. It mainly com
 <br><br>
 They are made of two distinct models, a generator and a discriminator. The job of the generator is to spawn ‘fake’ images that look like the training images. The job of the discriminator is to look at an image and output whether or not it is a real training image or a fake image from the generator. During training, the generator is constantly trying to outsmart the discriminator by generating better and better fakes, while the discriminator is working to become a better detective and correctly classify the real and fake images. The equilibrium of this game is when the generator is generating perfect fakes that look as if they came directly from the training data, and the discriminator is left to always guess at 50% confidence that the generator output is real or fake.
 
-## My Architecuture:
-![FaceGAN Architecture](screenshots/facegan_arch.png)
+
 
 
 
